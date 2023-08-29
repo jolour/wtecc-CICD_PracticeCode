@@ -2,8 +2,7 @@
 
 #tkn task ls
 #tkn pipeline ls
-
-tkn hub install task git-clone
+#tkn hub install task git-clone
 
 kubectl apply -f tasks.yaml
 kubectl apply -f pvc.yaml
